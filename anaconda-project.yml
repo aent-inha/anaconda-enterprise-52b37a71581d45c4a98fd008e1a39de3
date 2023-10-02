@@ -7,7 +7,7 @@ commands:
     unix: python ${PROJECT_DIR}/hello.py
     windows: python %PROJECT_DIR%\hello.py
     supports_http_options: true
-    notebook:
+  notebook:
     notebook: plot.ipynb
   run:
     unix: python ${PROJECT_DIR}/run.py
